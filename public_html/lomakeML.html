@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lomake-ML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matleena Laitila">
+        <link href="css/laitila_matleena.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+        <header>
+            <h1>Opiskelua Oulussa</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Minä</a></li>
+                    <li><a href="tietojenkasittelyML.html">Opiskelu</a></li>
+                    <li><a href="huvitteluML.html">Vapaa-aika</a></li>
+                    <li><a href="kuvatML.html">Kuvia</a></li>
+                    <li><a href="lomakeML.html">Ota yhteyttä</a></li>
+                </ul>
+            </nav>
+        </header> 
+        
+        <article>
+            <div class="yhteytta">
+                <br>
+                <h1>Ota yhteyttä</h1>
+                <br>
+            </div>
+            
+            <div class="lomake">
+                <form onsubmit="toiminta()">
+                    <div>
+                        <label for="teksti">Nimi: </label>
+                        <br>
+                        <input class="kentta" type="text" id="teksti" maxlength="50" size="30">
+                        <br>
+                        <br>
+                        <label for="sposti">Sähköposti: </label>
+                        <br>
+                        <input class="kentta" type="text" id="sposti" maxlength="50" size="30">
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Asiani koskee: </legend>
+                            <label><input type="radio" name="asia" id="yksi" value="1" checked>Opiskelua</label><br>
+                            <label><input type="radio" name="asia" id="kaksi" value="2" checked>Vapaa-aikaa</label><br>
+                            <label><input type="radio" name="asia" id="kolme" value="3" checked>Jotain muuta</label>
+                        </fieldset>
+                        <br>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Toivon yhteydenottoa: </legend>
+                            <label><input type="checkbox" name="asia[]" id="puhelin" value="puhelin" checked>Puhelimitse, puh:</label>
+                            <input class="kentta" type="tel" id="puh" maxlength="50" size="25"><br>
+                            <label><input type="checkbox" name="asia[]" id="sahkoposti" value="sahkoposti">Sähköpostitse</label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label for="otsikko">Viestin otsikko: </label>
+                        <br>
+                        <input class="kentta" type="text" id="otsikko" maxlength="70" size="40">    
+                        <br>
+                        <br>
+                        <label for="otsikko">Viesti: </label>
+                        <br>
+                        <textarea id="viesti" rows="10" cols="40"></textarea>
+                    </div>    
+                    <div>
+                        <input type="submit" value="Lähetä" class="painikkeet">
+                        <input type="submit" value="Tyhjennä" class="painikkeet">
+                    </div>  
+                </form>
+            </div>    
+        </article>    
+        <footer>
+            <br>
+            <br>
+            <br>
+            <p>Matleena Laitila</p>
+            <p class="right">Harjoitustyö<br>2019</p>
+        </footer> 
+        </div>
+    </body>
+</html>

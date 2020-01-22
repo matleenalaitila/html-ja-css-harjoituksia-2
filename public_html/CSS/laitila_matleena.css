@@ -1,0 +1,214 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.2.2019, 13:52:16
+    Author     : Matleena Laitila
+*/
+@import "css-reset.css";
+
+body {background-color: #4E8C78;}
+
+
+h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman";
+    
+}
+
+h1 {
+    color: #353109;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer p {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.right {
+    text-align: right;
+    
+}
+
+article {
+    margin-left: 20px;
+}
+
+article h1 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.lista {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+div {
+    background-color: #F9FAF5;
+    padding-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    font-family: "arial";
+}   
+
+nav,
+header {
+    margin-bottom: 1em;
+    padding: 10px 10px 10px 20px;
+}
+
+nav {
+    margin-top: 3em;
+    background-color:#C6D080;
+    border-radius: 10px;
+}
+
+nav ul {
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+  
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #F6F8E5;
+    color: #4E8C78;
+    text-decoration: none;
+}
+
+figcaption {
+    text-align: center;
+}
+
+address {
+    text-align: right;
+    font-style: italic;
+}
+
+table {
+    margin-left: 20px;
+    background-color: #EDFCF8;
+    color: #353109;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #353109;   
+}
+
+
+th {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #C6D080;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #353109;
+}
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #353109;
+    padding: 8px;
+}
+
+
+address :hover {
+    color: black;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul.kuvat {
+    display: inline-block;
+}
+
+ul.kuvat li {
+    display: inline-block;
+    border-color: white;
+    border-width: 8px;
+    border-style: solid; 
+    margin: 8px;
+    width: 20%;
+}
+
+.kentta {
+    margin-top: 10px;
+}
+
+legend {
+    margin-bottom: 8px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+div.yhteytta {
+    margin-bottom: -30px;
+}
+
+.painikkeet {
+    background-color: #0E3227;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.painikkeet:hover {
+    color: white;
+    border-radius: 50px;
+    border-color: #494949;
+    transition: all 0.3s ease 0s;
+}
+
+.lomake {
+    width: 88%;
+    background-color: white;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0E3227
+}
